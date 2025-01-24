@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="9" failures="0" errors="0" time="1.655">
+  <testsuite name="src/store/trainings/selectors.spec.ts" errors="0" failures="0" skipped="0" timestamp="2025-01-24T15:53:46" time="1.58" tests="9">
+    <testcase classname="Trainings Selectors › getGeneralTrainingsInfo" name="should generate general training info for testcase:
+&quot;#A No Participants&quot;" time="0.002">
+    </testcase>
+    <testcase classname="Trainings Selectors › getGeneralTrainingsInfo" name="should generate general training info for testcase:
+&quot;#B Some Participants Enrolled&quot;" time="0.001">
+    </testcase>
+    <testcase classname="Trainings Selectors › getGeneralTrainingsInfo" name="should generate general training info for testcase:
+&quot;#C Some Participants Modified&quot;" time="0.009">
+    </testcase>
+    <testcase classname="Trainings Selectors › getTrainingParticipantsInfo" name="should generate training participants info for testcase:
+&quot;#A No Participants (trainingID: 1)&quot;" time="0.001">
+    </testcase>
+    <testcase classname="Trainings Selectors › getTrainingParticipantsInfo" name="should generate training participants info for testcase:
+&quot;#B Some Participants Enrolled (trainingID: 1)&quot;" time="0.001">
+    </testcase>
+    <testcase classname="Trainings Selectors › getTrainingParticipantsInfo" name="should generate training participants info for testcase:
+&quot;#C Some Participants Modified (trainingID: 1)&quot;" time="0">
+    </testcase>
+    <testcase classname="Trainings Selectors › getTrainingSkillsInfo" name="should generate skills info for testcase:
+&quot;#A No Participants (trainingID: 1)&quot;" time="0">
+    </testcase>
+    <testcase classname="Trainings Selectors › getTrainingSkillsInfo" name="should generate skills info for testcase:
+&quot;#B Some Participants Enrolled (trainingID: 1)&quot;" time="0">
+    </testcase>
+    <testcase classname="Trainings Selectors › getTrainingSkillsInfo" name="should generate skills info for testcase:
+&quot;#C Some Participants Modified (trainingID: 1)&quot;" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Trainings Selectors getGeneralTrainingsInfo should generate general training info for testcase:
+"#A No Participants" 1`] = `
+[
+  {
+    "id": 1,
+    "level": "ADVANCED",
+    "name": "From React & Redux to React Hooks",
+    "participants": 0,
+  },
+]
+`;
+
+exports[`Trainings Selectors getGeneralTrainingsInfo should generate general training info for testcase:
+"#B Some Participants Enrolled" 1`] = `
+[
+  {
+    "id": 1,
+    "level": "ADVANCED",
+    "name": "From React & Redux to React Hooks",
+    "participants": 5,
+  },
+]
+`;
+
+exports[`Trainings Selectors getGeneralTrainingsInfo should generate general training info for testcase:
+"#C Some Participants Modified" 1`] = `
+[
+  {
+    "id": 2,
+    "level": "BEGINNER",
+    "name": "Angular for AngularJS developers",
+    "participants": 2,
+  },
+  {
+    "id": 1,
+    "level": "ADVANCED",
+    "name": "From React & Redux to React Hooks",
+    "participants": 1,
+  },
+]
+`;
+
+exports[`Trainings Selectors getTrainingParticipantsInfo should generate training participants info for testcase:
+"#A No Participants (trainingID: 1)" 1`] = `[]`;
+
+exports[`Trainings Selectors getTrainingParticipantsInfo should generate training participants info for testcase:
+"#B Some Participants Enrolled (trainingID: 1)" 1`] = `
+[
+  {
+    "id": 64801242,
+    "name": "Soledad Agosto",
+    "position": "Junior .Net Engineer",
+  },
+  {
+    "id": 528605,
+    "name": "Eva Janssen",
+    "position": ".Net Developer",
+  },
+  {
+    "id": 51767706,
+    "name": "Chance Johns",
+    "position": ".Net Developer",
+  },
+  {
+    "id": 302356259,
+    "name": "Jackson Murray",
+    "position": "Software Engineer",
+  },
+  {
+    "id": 8184090,
+    "name": "Maëlys Roy",
+    "position": "Senior Cloud Developer",
+  },
+]
+`;
+
+exports[`Trainings Selectors getTrainingParticipantsInfo should generate training participants info for testcase:
+"#C Some Participants Modified (trainingID: 1)" 1`] = `
+[
+  {
+    "id": 528605,
+    "name": "Eva Janssen",
+    "position": ".Net Developer",
+  },
+]
+`;
+
+exports[`Trainings Selectors getTrainingSkillsInfo should generate skills info for testcase:
+"#A No Participants (trainingID: 1)" 1`] = `
+{
+  "react": {
+    "have": 0,
+    "not-have": 0,
+  },
+  "react-hooks": {
+    "have": 0,
+    "not-have": 0,
+  },
+  "redux": {
+    "have": 0,
+    "not-have": 0,
+  },
+}
+`;
+
+exports[`Trainings Selectors getTrainingSkillsInfo should generate skills info for testcase:
+"#B Some Participants Enrolled (trainingID: 1)" 1`] = `
+{
+  "react": {
+    "have": 3,
+    "not-have": 2,
+  },
+  "react-hooks": {
+    "have": 0,
+    "not-have": 5,
+  },
+  "redux": {
+    "have": 1,
+    "not-have": 4,
+  },
+}
+`;
+
+exports[`Trainings Selectors getTrainingSkillsInfo should generate skills info for testcase:
+"#C Some Participants Modified (trainingID: 1)" 1`] = `
+{
+  "react": {
+    "have": 1,
+    "not-have": 0,
+  },
+  "react-hooks": {
+    "have": 0,
+    "not-have": 1,
+  },
+  "redux": {
+    "have": 1,
+    "not-have": 0,
+  },
+}
+`;
